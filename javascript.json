@@ -12,8 +12,28 @@
     "Random_Number": {
         "prefix": "rng",
         "body": [
-            "Math.floor(Math.random() * ${1:range}) + ${2:base};"
+            "Math.floor(Math.random() * ${1:range}) + ${2:base}"
         ],
         "description": "Pastes a random number snippet."
     },
+
+    "Simple_Server": {
+        "prefix": "simple_server",
+        "body": ["// Dependencies",
+            "// =============================================================",
+            "var express = require('express');",
+            "var bodyParser = require('body-parser');",
+            "var path = require('path');",
+            "",
+            "// Sets up the Express App",
+            "// =============================================================",
+            "var app = express();",
+            "var PORT = process.env.PORT || 3000;",
+            "",
+            "// Sets up the Express app to handle data parsing",
+            "app.use(bodyParser.urlencoded({ extended: true }));",
+            "app.use(bodyParser.json());"
+        ],
+        "description": "Snippet of a basic express.js server setup"
+    }
 }

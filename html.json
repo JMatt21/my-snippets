@@ -6,7 +6,6 @@
         ],
         "description": "Auto-completes jQuery 3.1.1 script tag."
     },
-
     "Bootstrap_css": {
         "prefix": "boots_css",
         "body": [
@@ -14,7 +13,6 @@
         ],
         "description": "Auto-completes Bootstrap 4.1.1 style tag."
     },
-    
     "Bootstrap_js": {
         "prefix": "boots_js",
         "body": [
@@ -23,5 +21,20 @@
             "<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js' integrity='sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T' crossorigin"
         ],
         "description": "Auto-completes Bootstrap 4.1.1 script tag."
+    },
+    "placeholder_image": {
+        "prefix": "placeholder_image",
+        "body": "https://via.placeholder.com/",
+        "description": "Auto-completes a href link to return a placeholder image with dimensions AxB"
+    },
+    "FireBase_tag": {
+        "prefix": "firebase",
+        "body": "<script src='https://www.gstatic.com/firebasejs/5.1.0/firebase.js'></script>",
+        "description": "pastes script tag for Firebase v. 5.1.0"
+    },
+    "moment.js": {
+        "prefix": "moment.js",
+        "body": "<script src='https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js'></script>",
+        "description": "moment.js snippet for verson 2.12.0"
     }
 }
