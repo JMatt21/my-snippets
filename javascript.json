@@ -1,0 +1,19 @@
+{
+    // "For_Loop": {
+    //     "prefix": "for",
+    //     "body": [
+    //         "for (const ${2:element} of ${1:array}) {",
+    //       "\t$0",
+    //       "}"
+    //     ],
+    //     "description": "For Loop"
+    // },
+
+    "Random_Number": {
+        "prefix": "rng",
+        "body": [
+            "Math.floor(Math.random() * ${1:range}) + ${2:base};"
+        ],
+        "description": "Pastes a random number snippet."
+    },
+}
